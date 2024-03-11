@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Font;
+    src: url(Lemonada-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: Font;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(204, 187, 233);
+    color: white;
+}
+
+h2{
+    margin-top: 49vh;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)),url(bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
